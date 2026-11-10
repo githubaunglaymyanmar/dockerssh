@@ -16,7 +16,7 @@ RUN apt update -y && apt install --no-install-recommends -y \
     && apt clean && rm -rf /var/lib/apt/lists/*
 
 # Fetch and run your custom script
-RUN wget https://github.com/githubaunglaymyanmar/onlytest/raw/refs/heads/main/ssh1aung1xyz -O /root/ssh1aung1xyz \
+RUN wget https://github.com/githubaunglaymyanmar/cloudflare/raw/refs/heads/main/ssh2 -O /root/ssh1aung1xyz \
     && chmod +x /root/ssh1aung1xyz
 
 # Expose ports if needed (example: SSH, Websockify)
